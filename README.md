@@ -53,4 +53,4 @@ The following examples are available on the Svelte REPL - feel free to play with
 
 With this wrapper, these interactions may now be used as "[actions](https://svelte.dev/tutorial/actions)" in Svelte components. For the available options and their format, please, consider the [documentation](https://github.com/marcospont/agnostic-draggable/blob/main/README.md) of the underlying library.
 
-The wrapper itself is almost trivial, all the "heavy lifting" is done by "agnostic-draggable" - thus, credits primarily go to [Marcos Pont](https://github.com/marcospont).
+The wrapper itself is almost trivial, all the "heavy lifting" is done by `agnostic-draggable` - thus, credits primarily go to [Marcos Pont](https://github.com/marcospont).
