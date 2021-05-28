@@ -1,0 +1,25 @@
+{
+  "name": "svelte-agnostic-draggable",
+  "version": "0.1.0",
+  "description": "jQuery UI interactions draggable/droppable/sortable for Svelte",
+  "main": "svelte-agnostic-draggable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozek/svelte-agnostic-draggable.git"
+  },
+  "keywords": [
+    "draggable",
+    "droppable",
+    "sortable",
+    "svelte"
+  ],
+  "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rozek/svelte-agnostic-draggable/issues"
+  },
+  "homepage": "https://github.com/rozek/svelte-agnostic-draggable#readme"
+}
