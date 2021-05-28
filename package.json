@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rozek/svelte-agnostic-draggable/issues"
   },
-  "homepage": "https://github.com/rozek/svelte-agnostic-draggable#readme"
+  "homepage": "https://github.com/rozek/svelte-agnostic-draggable#readme",
+  "dependencies": {
+    "agnostic-draggable": "^1.0.5"
+  }
 }
