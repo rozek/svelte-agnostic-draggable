@@ -43,9 +43,13 @@ npm install svelte-agnostic-draggable
 
 The following examples are available on the Svelte REPL - feel free to play with them!
 
-* [Draggable](https://svelte.dev/repl/cc36f2c307d54b0081fd6a16c18d1b5f)
-* [Droppable](https://svelte.dev/repl/7c06b8b5b7594cb6b0593da8c8a38438)
-* [Sortable](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f)
+* Draggable
+  * [Draggable with Event Log](https://svelte.dev/repl/cc36f2c307d54b0081fd6a16c18d1b5f)
+  * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551)
+* Droppable
+  * [Droppable with Event Log](https://svelte.dev/repl/7c06b8b5b7594cb6b0593da8c8a38438)
+* Sortable
+  * [Sortable with Event Log](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f)
 
 ### Background Information ###
 
