@@ -45,7 +45,8 @@ The following examples are available on the Svelte REPL - feel free to play with
 
 * Draggable
   * [Draggable with Event Log](https://svelte.dev/repl/cc36f2c307d54b0081fd6a16c18d1b5f)
-  * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551)
+  * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551) (uses coordinates from drag events)
+  * [draggable Note](https://svelte.dev/repl/f60141d0fd714f7eac2888c6e5a4bfd4) (uses a drag handle)
 * Droppable
   * [Droppable with Event Log](https://svelte.dev/repl/7c06b8b5b7594cb6b0593da8c8a38438)
 * Sortable
