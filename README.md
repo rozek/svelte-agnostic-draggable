@@ -39,6 +39,10 @@ npm install svelte-agnostic-draggable
 >...</div>
 ```
 
+**Important Note for mobile Users**
+
+Since `agnostic-draggable` itself handles `MouseEvent`s only, you will presumably also need a module such as [svelte-touch-to-mouse](https://github.com/rozek/svelte-touch-to-mouse) which maps `TouchEvent`s to `MouseEvent`s. All examples for `svelte-agnostic-draggable` already use that module and may therefore also be used on smartphones and tablets.
+
 ### Examples ###
 
 All examples are available on the Svelte REPL - feel free to play with them!
