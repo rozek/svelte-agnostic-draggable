@@ -1,6 +1,6 @@
 /**** use:draggable/droppable/sortable={options} ****/
 
-  import agnosticDraggable from 'agnostic-draggable'
+  import agnosticDraggable from 'agnostic-draggable-bug-fixed'
 
 /**** use:draggable={options} ****/
 
