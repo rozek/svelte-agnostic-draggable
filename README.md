@@ -73,8 +73,8 @@ All examples are available on the Svelte REPL.
 * **Draggable**
   * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551) (uses coordinates from drag events)
   * [draggable Note](https://svelte.dev/repl/f60141d0fd714f7eac2888c6e5a4bfd4) (uses a drag handle)
-  * [draggable resizable Note](https://svelte.dev/repl/cfd1b8c9faf94ad5b7ca035a21f4dbd1)<br>uses an invisible "helper" in order to decouple the actually dragged element from the original resize handle. As a consequence, the element to be resized can control its size itself (as in this example).<br><br>Warning: right now, "draggable" does not seem to expect a draggable object to change its size after initial setup - this causes "containment" not to behave as desired. As a workaround, you may simply control positioning of resizable draggables in the same way as this example controls the draggable's size
-  * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (a button which may be dragged and clicked)
+  * [draggable resizable Note](https://svelte.dev/repl/cfd1b8c9faf94ad5b7ca035a21f4dbd1) (with an invisible "helper")<br>Warning: right now, "draggable" does not seem to expect a draggable object to change its size after initial setup - this causes "containment" not to behave as desired. As a workaround, you may simply control positioning of resizable draggables in the same way as this example controls the draggable's size
+  * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (combines clicking and dragging)
 * **Droppable**
 * **Sortable**
   * basic [Sortable](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f) example<br>this example also uses the [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) package from [Will](https://github.com/willmcpo) in order to avoid the annoying body scrolling effect when trying to rearrange list items. 
