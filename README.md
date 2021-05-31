@@ -2,6 +2,9 @@
 
  jQuery UI interactions draggable/droppable/sortable for Svelte
 
+**Important Notice: because of not yet merged (but important) bug fixes in the original [agnostic-draggable](https://github.com/marcospont/agnostic-draggable), this package currently uses a newer copy, namely [agnostic-draggable-bug-fixed](https://github.com/rozek/agnostic-draggable). Apart from these bug fixes, however, the original description still applies.**
+
+
 ### Installation ###
 
 ```
