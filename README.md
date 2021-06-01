@@ -82,5 +82,5 @@ All examples are available on the Svelte REPL.
   * [Circle, Triangle, Star](https://svelte.dev/repl/c6659a04c47e47bfbdfec1f10c0fc9f7) (drag shapes to where they belong)
 * **Sortable**
   * basic [Sortable](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f) example<br>this example also uses the [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) package from [Will](https://github.com/willmcpo) in order to avoid the annoying body scrolling effect when trying to rearrange list items.
-  * [List sort with feedback](https://svelte.dev/repl/24da936731744dfdbe6f11db266bcd68) (updates Svelte's list model after sorting)
+  * [List sort with feedback](https://svelte.dev/repl/24da936731744dfdbe6f11db266bcd68) (updates Svelte's list model after sorting)<br>Warning: "sortable"s do not properly handle "revert" right now...
 
