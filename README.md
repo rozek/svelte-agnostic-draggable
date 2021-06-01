@@ -77,6 +77,7 @@ All examples are available on the Svelte REPL.
   * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (combines clicking and dragging)
   * [ResizeHandles](https://svelte.dev/repl/eff4aa19f1c2484a917e34d98a4a3870) (implements a typical resize frame with handles)
   * [Slider](https://svelte.dev/repl/f9e65134155045d49ca1813beadd3d8c) (a simple linear slider)
+  * [Dial](https://svelte.dev/repl/60f9cd8be0bc4fb488626f08c8600d70) (a simple dial to visually choose an angle)
 * **Droppable**
 * **Sortable**
   * basic [Sortable](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f) example<br>this example also uses the [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) package from [Will](https://github.com/willmcpo) in order to avoid the annoying body scrolling effect when trying to rearrange list items. 
