@@ -79,6 +79,7 @@ All examples are available on the Svelte REPL.
   * [Slider](https://svelte.dev/repl/f9e65134155045d49ca1813beadd3d8c) (a simple linear slider)
   * [Dial](https://svelte.dev/repl/60f9cd8be0bc4fb488626f08c8600d70) (a simple dial to visually choose an angle)
 * **Droppable**
+  * [Circle, Triangle, Star](https://svelte.dev/repl/c6659a04c47e47bfbdfec1f10c0fc9f7) (drag shapes to where they belong)
 * **Sortable**
   * basic [Sortable](https://svelte.dev/repl/91db405809614aa6943ce7fbac10664f) example<br>this example also uses the [body-scroll-lock](https://github.com/willmcpo/body-scroll-lock) package from [Will](https://github.com/willmcpo) in order to avoid the annoying body scrolling effect when trying to rearrange list items. 
 
