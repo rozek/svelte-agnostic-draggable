@@ -72,14 +72,15 @@ The wrapper itself is almost trivial, all the "heavy lifting" is done by `agnost
 All examples are available on the Svelte REPL.
 
 * **Draggable**
-  * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551) (uses coordinates from drag events)
+  * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551) (uses coordinates from drag events)<br>&nbsp;
   * [Line Node dragging](https://svelte.dev/repl/c7712ceeba1a4262a321c5ccfa9ee11b) (reposition the ends of a straight line)
   * [Polygon Node dragging](https://svelte.dev/repl/61807a11b0a34688859c21b1e74a2edc) (reposition the nodes of a polygon)
   * [quadratic Bezier Curve Node dragging](https://svelte.dev/repl/330f88cd9f1e4652bc30bacba8b7b0f6) (reposition the nodes of a quadratic bezier curve)
+  * [cubic Bezier Curve Node dragging](https://svelte.dev/repl/d6f8385e473b45078696e18883024513) (reposition the nodes of a cubic bezier curve)<br>&nbsp;
   * [draggable Note](https://svelte.dev/repl/f60141d0fd714f7eac2888c6e5a4bfd4) (uses a drag handle)
-  * [draggable resizable Note](https://svelte.dev/repl/cfd1b8c9faf94ad5b7ca035a21f4dbd1) (with an invisible "helper")<br>Warning: right now, "draggable" does not seem to expect a draggable object to change its size after initial setup - this causes "containment" not to behave as desired. As a workaround, you may simply control positioning of resizable draggables in the same way as this example controls the draggable's size
-  * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (combines clicking and dragging)
-  * [ResizeHandles](https://svelte.dev/repl/eff4aa19f1c2484a917e34d98a4a3870) (implements a typical resize frame with handles)
+  * [draggable resizable Note](https://svelte.dev/repl/cfd1b8c9faf94ad5b7ca035a21f4dbd1) (with an invisible "helper")<br>Warning: right now, "draggable" does not seem to expect a draggable object to change its size after initial setup - this causes "containment" not to behave as desired. As a workaround, you may simply control positioning of resizable draggables in the same way as this example controls the draggable's size.<br>&nbsp;
+  * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (combines clicking and dragging)<br>&nbsp;
+  * [ResizeHandles](https://svelte.dev/repl/eff4aa19f1c2484a917e34d98a4a3870) (implements a typical resize frame with handles)<br>&nbsp;
   * [Slider](https://svelte.dev/repl/f9e65134155045d49ca1813beadd3d8c) (a simple linear slider)
   * [Dial](https://svelte.dev/repl/60f9cd8be0bc4fb488626f08c8600d70) (a simple dial to visually choose an angle)
 * **Droppable**
