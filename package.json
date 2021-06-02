@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/rozek/svelte-agnostic-draggable#readme",
   "dependencies": {
-    "agnostic-draggable-bug-fixed": "^1.0.7"
+    "agnostic-draggable-bug-fixed": "^1.0.10"
   }
 }
