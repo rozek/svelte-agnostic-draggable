@@ -74,6 +74,7 @@ All examples are available on the Svelte REPL.
 * **Draggable**
   * [Draggable with Crosshairs](https://svelte.dev/repl/ff3b37f973964240b16b35af04b5e551) (uses coordinates from drag events)
   * [Line Node dragging](https://svelte.dev/repl/c7712ceeba1a4262a321c5ccfa9ee11b) (reposition the ends of a straight line)
+  * [Polygon Node dragging](https://svelte.dev/repl/61807a11b0a34688859c21b1e74a2edc) (reposition the nodes of a polygon)
   * [draggable Note](https://svelte.dev/repl/f60141d0fd714f7eac2888c6e5a4bfd4) (uses a drag handle)
   * [draggable resizable Note](https://svelte.dev/repl/cfd1b8c9faf94ad5b7ca035a21f4dbd1) (with an invisible "helper")<br>Warning: right now, "draggable" does not seem to expect a draggable object to change its size after initial setup - this causes "containment" not to behave as desired. As a workaround, you may simply control positioning of resizable draggables in the same way as this example controls the draggable's size
   * [draggable Button](https://svelte.dev/repl/4b21916c71de442ab326e22b37d8d6a4) (combines clicking and dragging)
