@@ -3,9 +3,9 @@
   "version": "0.1.3",
   "description": "jQuery UI interactions draggable/droppable/sortable for Svelte",
   "type": "module",
-  "module": "./svelte-agnostic-draggable.esm.js",
+  "module": "./dist/svelte-agnostic-draggable.esm.js",
   "exports": {
-    "import": "./svelte-agnostic-draggable.esm.js"
+    "import": "./dist/svelte-agnostic-draggable.esm.js"
   },
   "scripts": {
     "build": "rimraf dist && tsc && rollup -c rollup.config.js",
