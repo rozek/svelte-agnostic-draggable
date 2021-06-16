@@ -1,6 +1,6 @@
 {
   "name": "svelte-agnostic-draggable",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "jQuery UI interactions draggable/droppable/sortable for Svelte",
   "type": "module",
   "module": "./dist/svelte-agnostic-draggable.esm.js",
