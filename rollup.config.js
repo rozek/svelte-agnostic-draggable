@@ -14,6 +14,6 @@ export default {
   },
   plugins: [
     commonjs(), resolve(), typescript(),
-    terser()
+    terser({ format:{ comments:false, safari10:true } })
   ],
 };
