@@ -16,10 +16,12 @@
     "url": "git+https://github.com/rozek/svelte-agnostic-draggable.git"
   },
   "keywords": [
+    "svelte3",
+    "svelte-action",
+    "jquery-ui",
     "draggable",
     "droppable",
-    "sortable",
-    "svelte"
+    "sortable"
   ],
   "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
   "license": "MIT",
