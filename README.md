@@ -93,3 +93,14 @@ All examples are available on the Svelte REPL.
   * [move Items between Sortables](https://svelte.dev/repl/130d2b76ee514f9c8ea94408bae0759a)
   * [drag new item into a Sortable](https://svelte.dev/repl/b977894e19a948bc9a271e13905f5955) (a bit tricky due to bug workarounds)
 
+
+### Build Instructions ###
+
+You may easily build this package yourself.
+
+Just install [NPM](https://docs.npmjs.com/) according to the instructions for your platform and follow these steps:
+
+1. either clone this repository using [git](https://git-scm.com/) or [download a ZIP archive](https://github.com/rozek/svelte-agnostic-draggable/archive/refs/heads/main.zip) with its contents to your disk and unpack it there 
+2. open a shell and navigate to the root directory of this repository
+3. run `npm install` in order to install the complete build environment
+4. execute `npm run build` to create a new build
