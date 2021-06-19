@@ -10,10 +10,10 @@ export default {
   output: {
     file:     './dist/svelte-agnostic-draggable.esm.js',
     format:   'esm',
-    sourcemap:true
+    sourcemap:true,
   },
   plugins: [
-    commonjs(), resolve(), typescript(),
+    resolve(), commonjs(), typescript(),
     terser({ format:{ comments:false, safari10:true } })
   ],
 };
