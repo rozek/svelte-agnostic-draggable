@@ -6,13 +6,13 @@
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/svelte-agnostic-draggable/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
-### Installation ###
+## Installation ##
 
 ```
 npm install svelte-agnostic-draggable
 ```
 
-### Usage ###
+## Usage ##
 
 ```
 <script>
@@ -47,7 +47,7 @@ npm install svelte-agnostic-draggable
 
 Since `agnostic-draggable` itself handles `MouseEvent`s only, you will presumably also need a module such as [svelte-touch-to-mouse](https://github.com/rozek/svelte-touch-to-mouse) which maps `TouchEvent`s to `MouseEvent`s. All examples for `svelte-agnostic-draggable` already use that module and may therefore also be used on smartphones and tablets.
 
-### Examples ###
+## Examples ##
 
 All examples are available on the Svelte REPL - feel free to play with them!
 
@@ -59,7 +59,7 @@ Here are some basic ones:
 
 For more detailled examples, see below.
 
-### Background Information ###
+## Background Information ##
 
 `svelte-agnostic-draggable` is a thin wrapper around [agnostic-draggable](https://github.com/marcospont/agnostic-draggable) which makes jQuery UI-like interactions `draggable`, `droppable` and `sortable` available to web applications without any dependency for jQuery and jQuery UI.
 
@@ -67,7 +67,7 @@ With this wrapper, these interactions may now be used as "[actions](https://svel
 
 The wrapper itself is almost trivial, all the "heavy lifting" is done by `agnostic-draggable` - thus, credits primarily go to [Marcos Pont](https://github.com/marcospont).
 
-### More detailled Examples ###
+## More detailled Examples ##
 
 All examples are available on the Svelte REPL.
 
@@ -94,7 +94,7 @@ All examples are available on the Svelte REPL.
   * [drag new item into a Sortable](https://svelte.dev/repl/b977894e19a948bc9a271e13905f5955) (a bit tricky due to bug workarounds)
 
 
-### Build Instructions ###
+## Build Instructions ##
 
 You may easily build this package yourself.
 
