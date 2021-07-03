@@ -3,13 +3,13 @@
   "version": "0.1.8",
   "description": "jQuery UI interactions draggable/droppable/sortable for Svelte",
   "module": "./dist/svelte-agnostic-draggable.esm.js",
-  "svelte": "./dist/svelte-agnostic-draggable.esm.js",
+  "svelte": "./dist/svelte-agnostic-draggable.svelte.js",
   "exports": {
     "import": "./dist/svelte-agnostic-draggable.esm.js"
   },
   "types": "./dist/svelte-agnostic-draggable.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc && rollup -c rollup.config.js && mv src/*.d.ts dist && rm src/*.js",
+    "build": "rimraf dist && tsc && rollup -c rollup.config.js && mv src/*.d.ts dist && mv src/*.js ./dist/svelte-agnostic-draggable.svelte.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
