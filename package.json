@@ -2,6 +2,7 @@
   "name": "svelte-agnostic-draggable",
   "version": "0.1.10",
   "description": "jQuery UI interactions draggable/droppable/sortable for Svelte",
+  "module": "./dist/svelte-agnostic-draggable.esm.js",
   "svelte": "./dist/svelte-agnostic-draggable.esm.js",
   "types": "./dist/svelte-agnostic-draggable.d.ts",
   "exports": {
