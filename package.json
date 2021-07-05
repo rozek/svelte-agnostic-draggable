@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "rimraf dist && rollup -c rollup.config.js && tsc && mv src/*.d.ts dist && rm src/*.js*",
-    "agadoo": "agadoo",
+    "agadoo": "agadoo ./dist/svelte-agnostic-draggable.esm.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
