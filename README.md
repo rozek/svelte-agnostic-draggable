@@ -18,7 +18,7 @@ npm install svelte-agnostic-draggable
 
 It is recommended to import the package within a module context:
 
-```
+```html
 <script context="module">
   import { draggable, droppable, sortable } from 'svelte-agnostic-draggable'
 </script>
