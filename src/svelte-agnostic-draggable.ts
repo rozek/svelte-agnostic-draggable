@@ -12,7 +12,7 @@
     'draggable:destroy': InjectorForEvent('draggable:destroy')
   }
 
-  export function draggable (draggableElement:Element, Options:any):void {
+  export function draggable (draggableElement:Element, Options?:any):void {
     new agnosticDraggable.Draggable(draggableElement,Options,DraggableEventHandlers)
   }                    // currently, there is no possibility to update "Options"
 
@@ -28,7 +28,7 @@
     'droppable:destroy':    InjectorForEvent('droppable:destroy')
   }
 
-  export function droppable (droppableElement:Element, Options:any):void {
+  export function droppable (droppableElement:Element, Options?:any):void {
     new agnosticDraggable.Droppable(droppableElement,Options,DroppableEventHandlers)
   }                    // currently, there is no possibility to update "Options"
 
@@ -50,7 +50,7 @@
     'sortable:destroy':    InjectorForEvent('sortable:destroy')
   }
 
-  export function sortable (sortableElement:Element, Options:any):void {
+  export function sortable (sortableElement:Element, Options?:any):void {
     new agnosticDraggable.Sortable(sortableElement,Options,SortableEventHandlers)
   }                    // currently, there is no possibility to update "Options"
 
