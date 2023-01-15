@@ -6,6 +6,7 @@
   "svelte": "./dist/svelte-agnostic-draggable.esm.js",
   "types": "./dist/svelte-agnostic-draggable.d.ts",
   "exports": {
+    ".": "./dist/svelte-agnostic-draggable.esm.js",
     "./package.json": "./package.json"
   },
   "scripts": {
