@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript';
 
 export default {
   input: './src/svelte-agnostic-draggable.ts',
-  external:['agnostic-draggable','agnostic-draggable-bug-fixed'],
+  external:['agnostic-draggable'],
   output: {
     file:     './dist/svelte-agnostic-draggable.esm.js',
     format:   'esm',
