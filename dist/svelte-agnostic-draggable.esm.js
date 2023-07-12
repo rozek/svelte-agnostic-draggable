@@ -1,4 +1,4 @@
-import agnosticDraggable from 'agnostic-draggable-bug-fixed';
+import agnosticDraggable from 'agnostic-draggable';
 
 /**** use:draggable/droppable/sortable={options} ****/
 /**** use:draggable={options} ****/
